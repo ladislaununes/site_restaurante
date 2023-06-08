@@ -1,0 +1,61 @@
+/* PADRÃO */
+* {	
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'normal';
+}
+section { background: url(../_img/bg.jpg); }
+.navbar-light .navbar-nav .nav-link { color: #000; font-weight: bold; }
+.navbar-light .navbar-nav .nav-link:hover { color: #FF8800; }
+.navbar-light .navbar-nav .active .nav-link { color: #FF8800; }
+.navbar-brand { font-family: 'titulo1'; color: #FF8800; font-size: 20pt; }
+h1 { font-family: 'titulo1'; color: #000; }
+h2 { text-transform: uppercase; }
+hr { width: 80px; border: 2px solid #000; margin-left: auto; margin-right: auto; border-radius: 10px; }
+.btn { color: #fff; border-radius: 15px; background-color: #000; }
+.btn:hover { color: #000; background-color: #FF8800; }
+.container { width: 70%; }
+
+/* FONTES */
+@font-face {
+    font-family: 'titulo1';
+    src: url(../_fontes/Altoysitalic\ personal\ only.ttf);
+}
+@font-face {
+    font-family: 'titulo2';
+    src: url(../_fontes/BebasNeue\ Book.otf);
+}
+@font-face {
+    font-family: 'normal';
+    src: url(../_fontes/josefin-sans-regular.ttf);
+}
+
+/* BANNER */
+#banner { 
+    min-height: 60vh;
+    background: url(../_img/newsletter.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+#banner h1 { font-size: 50pt; color: #F5EFE6; box-shadow: black; }
+#banner h2 { font-size: 50pt; color: #F5EFE6; font-weight: bold; }
+
+/* RODAPÉ */
+#contacto {
+    min-height: 50vh;
+    background-image: url(../_img/newsletter.png); 
+    background-size: cover; 
+    background-position: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#contacto h1 { color: #fff; }
+footer { background-color: #212121; border-top: 1px solid #fff; }
